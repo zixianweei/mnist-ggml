@@ -1,0 +1,20 @@
+{
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+    "editor.guides.bracketPairs": true,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "debug.console.fontSize": 13,
+    "debug.toolBarLocation": "docked",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--header-insertion=never",
+        "--clang-tidy",
+        "--background-index"
+    ],
+}
